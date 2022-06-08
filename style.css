@@ -52,7 +52,7 @@ li{
 }
 .nav-container_ul{
     position: fixed;
-    top: 17vh;
+    top: 14.4vh;
     width: 100%;
     display: flex;
     flex-direction: column;
