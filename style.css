@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/* HEADER --------------------- */
+.header-container{
+    background-color: black;
+    height: 15vh;
+    width: 100%;
+    padding: .4rem .4rem;
+}
+.nav-container{
+    display: flex;
+    margin: .4rem .4rem;
+
+}
+.logo-container{
+    width: 40vw;
+    padding: .2rem;
+}
+.logo-cuian{
+    border-radius: 50%;
+    height: 6.4rem;
+    width: 6.5rem;
+}
+.container-chek-ul{
+    width: 60vw;
+    display: flex;
+    flex-direction: row-reverse; 
+    padding-right: 1rem;
+}
+#check{
+    display: none;
+}
+
+.fa-solid{
+    color: white;
+    font-size: 2.2rem;
+}
+.bar-btn{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-container_ul{
+    position: fixed;
+    top: 17vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    left: -100%;
+    transition: all .5s;
+}
+.nav-container_ul li{
+    margin: 2rem 0;
+}
+.nav-container_ul li a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#check:checked ~ .nav-container_ul{
+    left: 0%;
+}
