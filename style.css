@@ -1,4 +1,4 @@
-*{
+        *{
     margin: 0;
     padding: 0;
 }
@@ -78,17 +78,19 @@ li{
 #check:checked ~ .nav-container_ul{
     left: 0%;
 }
-
-@media only screen and (min-width: 768px){
+/* para tablets */
     
-}/* para tablets */
+@media only screen and (min-width: 768px){
+}
+    
+/* para pc */
 
 @media only screen and (min-width: 775px){
     .fa-solid{
         display: none;
     }
     .nav-container_ul{
-        position: fixed;
+        position: static;
         top: .55rem;
         left: 40vw;
         display: flex;
@@ -106,5 +108,8 @@ li{
         border-bottom: solid .2rem white;    
         transition: all .5s;   
     }
+    .logo-cuian{
+        margin-left: 2.5rem;
+    }
     
-}/* para pc */
+}
