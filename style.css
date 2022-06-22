@@ -1,4 +1,4 @@
-        *{
+*{
     margin: 0;
     padding: 0;
 }
@@ -112,4 +112,36 @@ li{
         margin-left: 2.5rem;
     }
     
+}
+
+/* ------- Inicio --------------- */
+.container {
+    width: 100%;
+    height: 85vh;
+/*     position: absolute;
+ */}
+.container__foto{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foto__fondo {
+    margin-top: 2.6rem;
+    width: 86%;
+    height: 85vh;
+    object-fit: cover;
+    box-shadow: 30px 20px 68px 1px rgb(0 0 0 / 25%);
+}
+.container__titulo{
+    position: relative;
+    display: inline;
+    top: -33%;
+    left: 11%;
+    font-family: 'Raleway', sans-serif;    text-transform: uppercase;
+    letter-spacing: .2rem;
+    background-color: rgba(255, 255, 255, 0.452);
+    text-align: center;
+    font-size: 1.5rem;
 }
