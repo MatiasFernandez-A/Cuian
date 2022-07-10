@@ -72,7 +72,7 @@ li{
 }
 .nav-container_ul{
     position: fixed;
-    padding-top: 7rem;    
+    padding-top: 5rem;    
     width: 100%;
     height: 100%;
     display: flex;
@@ -82,7 +82,24 @@ li{
     left: -100%;
     transition: all .5s;
     z-index: 1;
-    
+}
+.franga-color{
+    width: 70%;
+    height: 0.1rem;
+    background-color: #ffffff;
+    margin: 0 2.8rem;
+    border-radius: 100rem;
+}
+.icons{
+    width: 30%;
+    height: 2rem;
+    margin: 1.5rem 2.8rem 0 2.8rem;
+}
+.fa-brands{
+    color: white;
+    font-size: 1.5rem;
+    height: 2rem;
+    width: 3rem;
 }
 .nav-container_ul li{
     margin: 2rem 0 2rem 3rem;
